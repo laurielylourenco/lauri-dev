@@ -3,7 +3,7 @@ import { Inter, Space_Mono } from "next/font/google"
 import "./globals.css"
 
 import { ThemeProvider } from "@/components/theme-provider"
-
+import { Analytics } from "@vercel/analytics/react"
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-sans",
@@ -31,6 +31,7 @@ export default function RootLayout({
       <link rel="icon" type="image/svg+xml" href="/code.svg" />
       </head>
       <body className={`${inter.variable} ${spaceMono.variable} font-mono`}>
+      <Analytics />
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           {children}
         </ThemeProvider>

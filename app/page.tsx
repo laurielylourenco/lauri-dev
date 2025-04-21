@@ -4,10 +4,10 @@ import Image from "next/image"
 import Link from "next/link"
 import { ArrowRight, Github, Linkedin, Mail, Menu, Music, X } from "lucide-react"
 import { useState } from "react"
-
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+
 
 export default function Home() {
   return (
@@ -41,7 +41,7 @@ export default function Home() {
               olá, meu nome é <span className="text-[#c5c5ff]">Lauriely</span>
             </h2>
             <p className="text-base md:text-lg text-[#b3b3cc] max-w-xl">
-              Em constante evolução, assim como o código que escrevo, foco em backend.
+              Desenvolvimento contínuo ☁️, café constante ☕: assim construo minha carreira 💻🚀
             </p>
             <div className="flex gap-3 pt-2 justify-center md:justify-start">
               <Button
@@ -71,8 +71,7 @@ export default function Home() {
                 Sou desenvolvedora full-stack em uma fábrica de software há três anos, quero cada vez mais ter um foco em backend. Atualmente, estou cursando Ciência da Computação na UFJF no período noturno, e sinto que estou apenas no início da minha jornada no mundo do desenvolvimento. Tenho uma paixão crescente por participar de projetos complexos é buscar melhorar
               </p>
               <p className="leading-relaxed text-sm md:text-base">
-                Deixando os codigos de lado, você pode me encontrar explorando novas músicas, bom livro com uma
-                xícara de chá ou revendo harry potter ou senhor do aneis.
+              Deixando os códigos de lado, você pode me encontrar explorando novas músicas, lendo um bom livro com uma xícara de chá ou revendo Harry Potter ou Senhor dos Anéis.
               </p>
             </div>
 
@@ -93,7 +92,7 @@ export default function Home() {
                   Linux
                 </span>
                 <span className="px-2 py-1 md:px-3 md:py-2 bg-[#2d2d3d] border border-[#c5c5ff] text-[#ffffff] rounded-md text-xs md:text-sm">
-                  HTML & CSS & Bostrap
+                  HTML & CSS & Bootstrap
                 </span>
 
                 <span className="px-2 py-1 md:px-3 md:py-2 bg-[#2d2d3d] border border-[#c5c5ff] text-[#ffffff] rounded-md text-xs md:text-sm">
@@ -102,10 +101,9 @@ export default function Home() {
               </div>
 
               <div className="mt-6">
-                <h4 className="text-md font-medium mb-2">Meu foco hoje?</h4>
+                <h4 className="text-md font-medium mb-2">mentalidade</h4>
                 <p className="text-xs md:text-sm text-[#b3b3cc]">
-                  Eu acredito no trabalho em equipe minha abordagem no dia a dia foco tentar ajudar equipe sempre
-                  sou pessoa calma e focada no codigo e trazer soluçoes para empresa!
+                  Acredito no trabalho em equipe. No dia a dia, busco sempre colaborar, ajudando meus colegas com uma postura calma e focada. Tenho como objetivo entregar soluções eficientes que agreguem valor à empresa.
                 </p>
               </div>
             </div>
