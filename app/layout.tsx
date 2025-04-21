@@ -27,6 +27,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br" suppressHydrationWarning>
+      <head>
+      <link rel="icon" type="image/svg+xml" href="/code.svg" />
+      </head>
       <body className={`${inter.variable} ${spaceMono.variable} font-mono`}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           {children}
