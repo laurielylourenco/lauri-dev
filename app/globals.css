@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 33% 13%;
+    --foreground: 0 0% 100%;
+    --card: 240 33% 13%;
+    --card-foreground: 0 0% 100%;
+    --popover: 240 33% 13%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 240 100% 89%;
+    --primary-foreground: 240 33% 13%;
+    --secondary: 240 15% 20%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 240 15% 20%;
+    --muted-foreground: 240 5% 75%;
+    --accent: 240 15% 20%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 85% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 15% 20%;
+    --input: 240 15% 20%;
+    --ring: 240 100% 89%;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-[#2d2d3d]; /* Substituído border-border por uma cor específica */
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Noise texture */
+.bg-noise {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2d2d3d;
+  border-radius: 4px;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+  background-color: #c5c5ff;
+  color: #1a1a29;
+}
