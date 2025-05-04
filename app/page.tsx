@@ -44,15 +44,20 @@ export default function Home() {
               Desenvolvimento contínuo ☁️, café constante ☕: assim construo minha carreira 💻🚀
             </p>
             <div className="flex gap-3 pt-2 justify-center md:justify-start">
+
+            <Link href="#contact" scroll={true}>
               <Button
                 variant="outline"
                 className="rounded-sm border-[#ffffff] text-[#ffffff] hover:bg-[#2d2d3d] text-sm md:text-base"
               >
                 <Mail className="mr-2 h-4 w-4" /> Contato
               </Button>
+              </Link>
+              <Link href="#projects" scroll={true}>
               <Button className="rounded-sm bg-[#c5c5ff] text-[#1a1a29] hover:bg-[#a6a6ff] text-sm md:text-base">
-                Projetos <ArrowRight className="ml-2 h-4 w-4" />
+                Projetos <ArrowRight className="ml-2 h-4 w-4"  />
               </Button>
+              </Link>
             </div>
           </div>
         </section>
@@ -320,7 +325,7 @@ export default function Home() {
                 <div className="space-y-4">
                   <div>
                     <label htmlFor="name" className="block text-xs md:text-sm mb-1">
-                      Name
+                      Nome
                     </label>
                     <input
                       type="text"
@@ -342,7 +347,7 @@ export default function Home() {
 
                   <div>
                     <label htmlFor="message" className="block text-xs md:text-sm mb-1">
-                      Message
+                      Mensagem
                     </label>
                     <textarea
                       id="message"
@@ -352,7 +357,7 @@ export default function Home() {
                   </div>
 
                   <Button className="w-full bg-[#c5c5ff] text-[#1a1a29] hover:bg-[#a6a6ff] rounded-sm text-xs md:text-sm">
-                    Send message
+                    Deixe seu oii!
                   </Button>
                 </div>
               </form>
@@ -384,7 +389,7 @@ export default function Home() {
         
         </div>
         <p className="text-xs md:text-sm">© {new Date().getFullYear()} Lauriely.</p>
-        <p className="text-xs mt-1">Built with React & Next.js</p>
+
       </footer>
     </div>
   )
@@ -492,7 +497,7 @@ function DesktopHeader() {
           </li>
           <li>
             <Link href="#articles" className="hover:text-[#c5c5ff] transition-colors">
-              textinhos
+              artigos
             </Link>
           </li>
           <li>
