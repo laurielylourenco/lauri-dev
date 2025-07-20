@@ -41,22 +41,22 @@ export default function Home() {
               olá, meu nome é <span className="text-[#c5c5ff]">Lauriely</span>
             </h2>
             <p className="text-base md:text-lg text-[#b3b3cc] max-w-xl">
-              Desenvolvimento contínuo ☁️, café constante ☕: assim construo minha carreira 💻🚀
+              Desenvolvimento contínuo ☁️, café constante ☕
             </p>
             <div className="flex gap-3 pt-2 justify-center md:justify-start">
 
-            <Link href="#contact" scroll={true}>
-              <Button
-                variant="outline"
-                className="rounded-sm border-[#ffffff] text-[#ffffff] hover:bg-[#2d2d3d] text-sm md:text-base"
-              >
-                <Mail className="mr-2 h-4 w-4" /> Contato
-              </Button>
+              <Link href="#contact" scroll={true}>
+                <Button
+                  variant="outline"
+                  className="rounded-sm border-[#ffffff] text-[#ffffff] hover:bg-[#2d2d3d] text-sm md:text-base"
+                >
+                  <Mail className="mr-2 h-4 w-4" /> Contato
+                </Button>
               </Link>
               <Link href="#projects" scroll={true}>
-              <Button className="rounded-sm bg-[#c5c5ff] text-[#1a1a29] hover:bg-[#a6a6ff] text-sm md:text-base">
-                Projetos <ArrowRight className="ml-2 h-4 w-4"  />
-              </Button>
+                <Button className="rounded-sm bg-[#c5c5ff] text-[#1a1a29] hover:bg-[#a6a6ff] text-sm md:text-base">
+                  Projetos <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
               </Link>
             </div>
           </div>
@@ -73,10 +73,10 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="space-y-4">
               <p className="leading-relaxed text-sm md:text-base">
-                Sou desenvolvedora full-stack em uma fábrica de software há três anos, quero cada vez mais ter um foco em backend. Atualmente, estou cursando Ciência da Computação na UFJF no período noturno, e sinto que estou apenas no início da minha jornada no mundo do desenvolvimento. Tenho uma paixão crescente por participar de projetos complexos é buscar melhorar
+                Sou desenvolvedora full-stack em uma fábrica de software há quatro anos, quero cada vez mais ter um foco em backend. Atualmente, estou cursando Ciência da Computação, e sinto que estou apenas no início da minha jornada no mundo do desenvolvimento. Tenho uma paixão crescente por participar de projetos complexos é buscar melhorar
               </p>
               <p className="leading-relaxed text-sm md:text-base">
-              Deixando os códigos de lado, você pode me encontrar explorando novas músicas, lendo um bom livro com uma xícara de chá ou revendo Harry Potter ou Senhor dos Anéis.
+                Deixando os códigos de lado, você pode me encontrar explorando novas músicas, lendo um bom livro com uma xícara de chá ou revendo Harry Potter ou Senhor dos Anéis.
               </p>
             </div>
 
@@ -85,31 +85,29 @@ export default function Home() {
 
               <div className="flex flex-wrap gap-2">
                 <span className="px-2 py-1 md:px-3 md:py-2 bg-[#2d2d3d] border border-[#c5c5ff] text-[#ffffff] rounded-md text-xs md:text-sm">
-                  PHP & Laravel
+                  PHP
                 </span>
                 <span className="px-2 py-1 md:px-3 md:py-2 bg-[#2d2d3d] border border-[#c5c5ff] text-[#ffffff] rounded-md text-xs md:text-sm">
-                  Node.js & TypeScript
+                  Laravel
                 </span>
                 <span className="px-2 py-1 md:px-3 md:py-2 bg-[#2d2d3d] border border-[#c5c5ff] text-[#ffffff] rounded-md text-xs md:text-sm">
-                  JavaScript
+                  Node.js
+                </span>
+                <span className="px-2 py-1 md:px-3 md:py-2 bg-[#2d2d3d] border border-[#c5c5ff] text-[#ffffff] rounded-md text-xs md:text-sm">
+                  TypeScript
+                </span>
+                <span className="px-2 py-1 md:px-3 md:py-2 bg-[#2d2d3d] border border-[#c5c5ff] text-[#ffffff] rounded-md text-xs md:text-sm">
+                  Postgresql
                 </span>
                 <span className="px-2 py-1 md:px-3 md:py-2 bg-[#2d2d3d] border border-[#c5c5ff] text-[#ffffff] rounded-md text-xs md:text-sm">
                   Linux
                 </span>
                 <span className="px-2 py-1 md:px-3 md:py-2 bg-[#2d2d3d] border border-[#c5c5ff] text-[#ffffff] rounded-md text-xs md:text-sm">
-                  HTML & CSS & Bootstrap
+                  React
                 </span>
-
                 <span className="px-2 py-1 md:px-3 md:py-2 bg-[#2d2d3d] border border-[#c5c5ff] text-[#ffffff] rounded-md text-xs md:text-sm">
                   Git
                 </span>
-              </div>
-
-              <div className="mt-6">
-                <h4 className="text-md font-medium mb-2">mentalidade</h4>
-                <p className="text-xs md:text-sm text-[#b3b3cc]">
-                  Acredito no trabalho em equipe. No dia a dia, busco sempre colaborar, ajudando meus colegas com uma postura calma e focada. Tenho como objetivo entregar soluções eficientes que agreguem valor à empresa.
-                </p>
               </div>
             </div>
           </div>
@@ -245,7 +243,7 @@ export default function Home() {
                 <span className="text-xs md:text-sm text-[#b3b3cc]">Abril 2025</span>
               </div>
               <p className="text-xs md:text-sm text-[#b3b3cc] mb-3">
-              Passei algumas horas apanhando pra fazer essa lib funcionar no PHP 7.4, então compartilhei o passo a passo que funcionou pra mim. 
+                Passei algumas horas apanhando pra fazer essa lib funcionar no PHP 7.4, então compartilhei o passo a passo que funcionou pra mim.
               </p>
               <Link target="_blank" href="https://dev.to/laurielylourenco/tutorial-oci8-php-74-o-guia-para-nao-bater-a-cabeca-na-tela-3hak" className="text-xs md:text-sm flex items-center text-[#c5c5ff] hover:underline">
                 Ler artigo <ArrowRight className="ml-1 h-3 w-3" />
@@ -284,83 +282,43 @@ export default function Home() {
 
         {/* Contact section */}
         <section id="contact" className="mb-12 scroll-mt-20">
-          <div className="flex items-center gap-2 mb-6 md:mb-8">
+          
+          <div className="flex items-center gap-2 mb-12 md:mb-8">
             <div className="w-2 h-2 bg-[#c5c5ff] rounded-full"></div>
             <h2 className="text-xl md:text-2xl font-bold">contato</h2>
             <div className="h-px bg-[#2d2d3d] flex-grow ml-2"></div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="space-y-4">
+          <div className="grid grid-cols-1 place-items-center gap-8">
+            
+            <div className="space-y-4 flex flex-col items-center text-center">
               <h3 className="text-lg md:text-xl font-semibold">Vamos conversar!</h3>
               <p className="text-xs md:text-sm text-[#b3b3cc] max-w-md">
-              Tem um projeto em mente ou quer apenas dizer oi? Entre em contato e entrarei em contato o mais breve possível.
+                Tem um projeto em mente ou quer apenas dizer oi? Entre em contato e entrarei em contato o mais breve possível.
               </p>
 
-              <div className="flex flex-col gap-3 pt-4">
+              <div className="flex flex-col items-center gap-3 pt-4">
                 <Link
                   href="mailto:laurielylourenco@gmail.com"
                   className="flex items-center gap-2 hover:text-[#c5c5ff] transition-colors text-xs md:text-sm"
                 >
                   <Mail className="h-4 w-4" /> laurielylourenco@gmail.com
                 </Link>
-                <Link target="_blank"
+                <Link
+                  target="_blank"
                   href="https://github.com/laurielylourenco"
                   className="flex items-center gap-2 hover:text-[#c5c5ff] transition-colors text-xs md:text-sm"
                 >
                   <Github className="h-4 w-4" /> github.com/laurielylourenco
                 </Link>
-                <Link target="_blank"
+                <Link
+                  target="_blank"
                   href="https://www.linkedin.com/in/laurielylourenco/"
                   className="flex items-center gap-2 hover:text-[#c5c5ff] transition-colors text-xs md:text-sm"
                 >
                   <Linkedin className="h-4 w-4" /> linkedin.com/in/laurielylourenco
                 </Link>
               </div>
-            </div>
-
-            <div className="relative mt-6 md:mt-0">
-              <div className="absolute inset-0 border-2 border-[#ffffff] rounded-md transform rotate-1"></div>
-              <form className="relative bg-[#2d2d3d] p-4 md:p-6 rounded-md transform -rotate-1">
-                <div className="space-y-4">
-                  <div>
-                    <label htmlFor="name" className="block text-xs md:text-sm mb-1">
-                      Nome
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      className="w-full px-3 py-2 bg-[#1a1a29] border border-[#3d3d4d] rounded-sm focus:outline-none focus:ring-1 focus:ring-[#c5c5ff] text-[#ffffff] text-xs md:text-sm"
-                    />
-                  </div>
-
-                  <div>
-                    <label htmlFor="email" className="block text-xs md:text-sm mb-1">
-                      Email
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      className="w-full px-3 py-2 bg-[#1a1a29] border border-[#3d3d4d] rounded-sm focus:outline-none focus:ring-1 focus:ring-[#c5c5ff] text-[#ffffff] text-xs md:text-sm"
-                    />
-                  </div>
-
-                  <div>
-                    <label htmlFor="message" className="block text-xs md:text-sm mb-1">
-                      Mensagem
-                    </label>
-                    <textarea
-                      id="message"
-                      rows={4}
-                      className="w-full px-3 py-2 bg-[#1a1a29] border border-[#3d3d4d] rounded-sm focus:outline-none focus:ring-1 focus:ring-[#c5c5ff] text-[#ffffff] text-xs md:text-sm"
-                    ></textarea>
-                  </div>
-
-                  <Button className="w-full bg-[#c5c5ff] text-[#1a1a29] hover:bg-[#a6a6ff] rounded-sm text-xs md:text-sm">
-                    Deixe seu oii!
-                  </Button>
-                </div>
-              </form>
             </div>
           </div>
         </section>
@@ -386,7 +344,6 @@ export default function Home() {
           >
             <Mail className="h-4 w-4" />
           </Link>
-        
         </div>
         <p className="text-xs md:text-sm">© {new Date().getFullYear()} Lauriely.</p>
 
@@ -395,7 +352,7 @@ export default function Home() {
   )
 }
 
-// Mobile Header Component
+
 function MobileHeader() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
@@ -470,7 +427,7 @@ function MobileHeader() {
   )
 }
 
-// Desktop Header Component
+
 function DesktopHeader() {
   return (
     <header className="hidden md:flex border-b border-[#2d2d3d] py-4 px-12 justify-between items-center sticky top-0 bg-[#1a1a29] z-20">
@@ -511,7 +468,7 @@ function DesktopHeader() {
   )
 }
 
-// Project data
+
 const projects = [
   {
     title: "Veri",
@@ -556,7 +513,6 @@ const projects = [
   },
 ]
 
-// Project card component
 function ProjectCard({ project }: any) {
   return (
     <Card className="overflow-hidden border-[#2d2d3d] bg-[#1a1a29]">
