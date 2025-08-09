@@ -471,11 +471,11 @@ function DesktopHeader() {
 
 const projects = [
   {
-    title: "Veri",
-    description: "Projeto está em contrução a ideia é um sistema web que permite a coleta e análise de feedbacks de funcionários e clientes.",
-    image: "https://avatars.githubusercontent.com/u/958072?s=280&v=4?height=300&width=500",
-    tags: ["PHP", "Laravel", "Backend", "API"],
-    link: "https://github.com/laurielylourenco/veri",
+    title: "FavMovies",
+    description: "Uma aplicação de Catálogo de Filmes, integrando com a API pública do The Movie Database (TMDB), com funcionalidades de busca e gerenciamento local de filmes favoritos..",
+    image: "https://raw.githubusercontent.com/laurielylourenco/favmovies/refs/heads/main/image.png?height=300&width=500",
+    tags: ["PHP", "Laravel", "FullStack","React", "API", "Docker" ],
+    link: "https://github.com/laurielylourenco/favmovies",
     category: "web",
   },
   {
