@@ -398,7 +398,7 @@ function MobileHeader() {
                   className="hover:text-[#c5c5ff] transition-colors block py-2"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  projeto
+                  projetos
                 </Link>
               </li>
               <li>
