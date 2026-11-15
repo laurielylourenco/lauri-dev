@@ -199,7 +199,7 @@ export default function Home() {
             <TabsContent value="web" className="mt-0">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {projects
-                  .filter((p) => p.category === "web")
+                  .filter((p) => p.category === "linux")
                   .map((project, index) => (
                     <ProjectCard key={index} project={project} />
                   ))}
